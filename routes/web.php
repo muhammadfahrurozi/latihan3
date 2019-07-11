@@ -23,3 +23,9 @@ route::get('about',function(){
 route::get ('contact',function(){
     return view ('contact');
 });
+route::get('/master',function(){
+    return view('guru.index');
+});
+route::get ('/app',function(){
+    return view('petugas.index');
+});
